@@ -1,4 +1,4 @@
-// Initialize Firebase (no import required with CDN)
+// Initialize Firebase
 const firebaseConfig = {
     apiKey: "AIzaSyDndCJeOmnvGGFGc_nX8gqHjWxekIMFLVI",
     authDomain: "stock-market-game-eb548.firebaseapp.com",
