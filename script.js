@@ -1,6 +1,4 @@
-import { initializeApp } from "firebase/app";
-
-// Firebase configuration
+// Initialize Firebase (no import required with CDN)
 const firebaseConfig = {
     apiKey: "AIzaSyDndCJeOmnvGGFGc_nX8gqHjWxekIMFLVI",
     authDomain: "stock-market-game-eb548.firebaseapp.com",
@@ -9,8 +7,7 @@ const firebaseConfig = {
     storageBucket: "stock-market-game-eb548.appspot.com",
     messagingSenderId: "146474488765",
     appId: "1:146474488765:web:dbed97ce363e4b28cd78d4"
-  };
-  
+};
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
