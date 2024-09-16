@@ -1,13 +1,14 @@
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
-};
+    apiKey: "AIzaSyDndCJeOmnvGGFGc_nX8gqHjWxekIMFLVI",
+    authDomain: "stock-market-game-eb548.firebaseapp.com",
+    databaseURL: "https://stock-market-game-eb548.firebaseio.com",
+    projectId: "stock-market-game-eb548",
+    storageBucket: "stock-market-game-eb548.appspot.com",
+    messagingSenderId: "146474488765",
+    appId: "1:146474488765:web:dbed97ce363e4b28cd78d4"
+  };
+  
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
