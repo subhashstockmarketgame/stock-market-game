@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Stock Market Simulator</h1>
+        
+        <!-- Login/Signup Form -->
+        <div id="auth">
+            <h2>Login or Signup</h2>
+            <input type="text" id="username" placeholder="Username" />
+            <input type="password" id="password" placeholder="Password" />
+            <button onclick="login()">Login</button>
+            <button onclick="signup()">Signup</button>
+        </div>
+
+        <!-- Stock Market Dashboard -->
+        <div id="dashboard" style="display:none;">
+            <h2>Welcome, <span id="user-name"></span></h2>
+            <div id="stocks">
+                <h3>Stock: <span id="stock-price">$0</span></h3>
+                <button onclick="buyStock()">Buy Stock</button>
+                <button onclick="sellStock()">Sell Stock</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database.js"></script>
+</body>
+</html>
